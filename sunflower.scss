@@ -1,0 +1,136 @@
+/*-- scss:defaults --*/
+
+/* Sunflower themed Quarto slideset */
+
+// Fonts
+@import 'https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap'; // Use Nunito for a friendly feel
+
+$font-family-sans-serif: "Nunito", sans-serif;
+$presentation-heading-color: #D2691E; // Burnt Orange for headings (sunflower center)
+$presentation-title-slide-text-align: "left";
+$presentation-subtitle-slide-text-align: "left";
+$code-block-font-size: 0.6em;
+$code-color: #555; // Darker gray for code
+$presentation-h2-font-size: 1.4em;
+$body-bg: #FFFACD; // Light yellow background (sunflower petals)
+$body-color: #333; // Darker text for contrast
+
+/*-- scss:rules --*/
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+}
+
+.reveal {
+  background-color: $body-bg;
+}
+
+.reveal .slide {
+  background-color: $body-bg;
+}
+
+.reveal .custom-title {
+  position: absolute;
+  color: $presentation-heading-color;
+  background-color: #8FBC8F; // Use background-color for clarity
+  font-size: 3em;
+  text-align: right;
+  right: 20px;
+  top: -200px;
+  display: inline-block; // Crucial for text-only highlight
+  padding: 2px 4px; // Optional padding for better visual spacing
+}
+
+.reveal .custom-author {
+  position: absolute;
+  font-size: 1.4em;
+  text-align: right;
+  right: 20px;
+  top: 300px;
+}
+
+.reveal .custom-twitter a {
+  position: absolute;
+  color: #1DA1F2;
+  font-size: 1.3em;
+  text-align: right;
+  right: 20px;
+  top: 470px;
+}
+
+.reveal .custom-url a {
+  position: absolute;
+  color: $presentation-heading-color;
+  font-size: 1.5em;
+  text-align: right;
+  right: 20px;
+  top: 570px;
+}
+
+details>summary {
+  font-size: 0.75em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.reveal .slide .in-out {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #FFF8E1; // Lighter yellow for in-out boxes
+  font-family: $font-family-monospace;
+  font-size: 0.6em;
+  border: 1px solid #D2691E; // border to match heading color
+}
+
+.reveal .slide .goal {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+  background: #FFF0B5; // Slightly deeper yellow for goal boxes
+  border: 1px solid #D2691E;
+}
+
+[contenteditable] {
+  outline-offset: 5px;
+  transition: outline-offset 0.25s linear;
+}
+
+[contenteditable]:hover {
+  outline: 1px dashed #D2691E; // orange outline on hover
+}
+
+[contenteditable]:focus {
+  outline: 1px solid #D2691E; // orange outline when focused
+  outline-offset: 10px;
+  transition: outline-offset 0.5s linear;
+}
+
+.xe-editable_is-editing.remark-container.remark-presenter-mode.remark-pause-mode .remark-pause,
+.xe-editable_is-editing.remark-container.remark-presenter-mode.remark-pause-mode .remark-backdrop {
+  display: none;
+}
+
+.reveal .slide h1,
+.reveal .slide h2,
+.reveal .slide h3,
+.reveal .slide h4,
+.reveal .slide h5,
+.reveal .slide h6 {
+  color: $presentation-heading-color;
+}
+
+.reveal .slide a {
+  color: #B8860B; // Dark goldenrod for links
+}
+
+.reveal .slide a:hover {
+  color: #DAA520; // Goldenrod on hover
+}

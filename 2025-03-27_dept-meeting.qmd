@@ -1,0 +1,98 @@
+---
+title: "Hidden Disabilities Sunflower Training now available"
+subtitle: "Department of Statistics Meeting"
+date: 2025-03-27
+author: "Liza Bolton"
+title-slide-attributes:
+  data-background-image: "todd-kent-kW1P8R-UoWI-unsplash.jpg"
+  data-background-opacity: "0.4"
+format:
+  revealjs:
+    theme: sunflower.scss
+    transition: fade
+    width: 1600
+    height: 900
+    background-transition: fade
+    highlight-style: ayu-mirage
+    slide-number: c/t
+    auto-stretch: false
+    code-fold: true
+    code-summary: "Show the code"
+code-link: true
+execute:
+  echo: true
+  freeze: auto
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Do you have Campus Security saved in your phone? 🍫
+
+# **📲 0800 373 7550 or 966 (internal)**
+
+## Do you have my Te Papa Manaki Campus Care or [my list of student support links]() bookmarked?
+
+<br>
+
+Get my slides and resources:
+[**link.lizabolton.com**](https://link.lizabolton.com/)
+
+```{r, echo=F, eval = F}
+png("img/qrcode_links.png")
+plot(qrcode::qr_code("https://link.lizabolton.com/"))
+dev.off()
+```
+
+![](img/qrcode_links.png){fig-alt="QR code for link.lizabolton.com"
+fig-align="center" width="600"}
+
+# 🌻 What is the Hidden Disabilities Sunflower?
+
+> *The Hidden Disabilities Sunflower is a global initiative which aims to support people with hidden disabilities to access appropriate support. The sunflower itself is a globally recognised symbol which identifies that a person may have additional support needs, this may be through wearing a lanyard, wrist band, or badge. The Hidden Disabilities Sunflower is a tool for people to voluntarily share that they have a hidden disability, without disclosing details of the impairment.*
+
+From the description on Hono
+
+## Details
+
+-   Takes approximately 2 hours to complete
+-   Held in-person on City Campus
+-   Anonymous group activities throughout
+-   10-minute interval at the half way point
+-   Free to attend
+-   E-resources for supporters are available upon completion
+-   Completion certificate provided upon finishing the workshop
+
+## 🕐 The next sessions are:
+
+-   Thu, 24 Apr 2025, 1:00 pm
+-   Mon, 26 May 2025, 10:00 am
+
+You can sign up via Hono.
+
+# Helping students navigate systems
+
+------------------------------------------------------------------------
+
+![](img/2025-02_wellbeing-resources.png){fig-alt="Summary of Be Well | Whai Ora and associated offerings"
+fig-align="center" width="60%"}
+
+[Download the PDF version
+here.](https://github.com/lizabolton/uoa-stats-student-support/blob/main/pdf/2025-02_wellbeing-resources.pdf)
+
+# More links and resources
+
+[🔗 Here is the my big 'ol
+doc](https://lizabolton.github.io/uoa-stats-student-support/) with more
+resources for specific cases (like sexual harm) and some examples of
+other ways to share these resources, from Canvas to your email
+signature.
+
+# Noho ora mai rā, look after yourself
+
+------------------------------------------------------------------------
+
+Sunflower photo by
+<a href="https://unsplash.com/@churchoftodd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">todd
+kent</a> on
+<a href="https://unsplash.com/photos/sunflower-field-under-blue-sky-during-sunset-kW1P8R-UoWI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
