@@ -18,6 +18,11 @@ format:
     auto-stretch: false
     code-fold: true
     code-summary: "Show the code"
+    header: "Get resources @ link.lizabolton.com"
+    header-logo: img/S DS HRC RGB.png
+#quarto add shafayetShafee/reveal-header
+filters:
+  - reveal-header
 code-link: true
 execute:
   echo: true
